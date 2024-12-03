@@ -1,0 +1,17 @@
+{
+	"trailingComma": "none",
+	"tabWidth": 2,
+	"useTabs": true,
+	"semi": false,
+	"singleQuote": true,
+	"arrowParens": "avoid",
+	"importOrder": [
+		"<THIRD_PARTY_MODULES>",
+		"/routes/",
+		"/middleware/",
+		"^../(.*)",
+		"^./(.*)"
+	],
+	"importOrderSeparation": true,
+	"importOrderSortSpecifiers": true
+}
