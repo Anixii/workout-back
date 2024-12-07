@@ -28,7 +28,7 @@ export const registerUser = asyncHandler(async (req, res) => {
 			email
 		}
 	})
-	if(email && password && first_name && last_name ){
+	if(!(email && password && first_name && last_name) ){
 		res.status(400)
 		throw new Error('Передайте все поля!')
 	}
